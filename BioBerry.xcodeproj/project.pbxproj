@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		804BCE03E6D31919A554BF2F /* Pods_BioBerry_BioBerryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4513CB55CB0BF45E4A036E99 /* Pods_BioBerry_BioBerryUITests.framework */; };
+		B080C65C389F68D7D470547B /* Pods_BioBerry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0041DFEA638520D909F95A7B /* Pods_BioBerry.framework */; };
+		DC48E9352364525100EF8D2D /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC48E9342364525100EF8D2D /* StatsViewController.swift */; };
 		DC8E99932363FEF700166339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99922363FEF700166339 /* AppDelegate.swift */; };
 		DC8E99952363FEF700166339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99942363FEF700166339 /* SceneDelegate.swift */; };
 		DC8E99972363FEF700166339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99962363FEF700166339 /* ViewController.swift */; };
@@ -15,6 +18,8 @@
 		DC8E999F2363FEFE00166339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8E999D2363FEFE00166339 /* LaunchScreen.storyboard */; };
 		DC8E99AA2363FEFF00166339 /* BioBerryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99A92363FEFF00166339 /* BioBerryTests.swift */; };
 		DC8E99B52363FEFF00166339 /* BioBerryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99B42363FEFF00166339 /* BioBerryUITests.swift */; };
+		DC8E99C32364274B00166339 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99C22364274A00166339 /* Model.swift */; };
+		EA372CE4DAF1D41262CBD61A /* Pods_BioBerryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54A9DAAE50B0E70A4C8D3C4D /* Pods_BioBerryTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0041DFEA638520D909F95A7B /* Pods_BioBerry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BioBerry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23FC25CDDDB916AB8C8A0D41 /* Pods-BioBerry-BioBerryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBerry-BioBerryUITests.release.xcconfig"; path = "Target Support Files/Pods-BioBerry-BioBerryUITests/Pods-BioBerry-BioBerryUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4513CB55CB0BF45E4A036E99 /* Pods_BioBerry_BioBerryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BioBerry_BioBerryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A9DAAE50B0E70A4C8D3C4D /* Pods_BioBerryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BioBerryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1572D2C685069CF7074FE4 /* Pods-BioBerry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBerry.debug.xcconfig"; path = "Target Support Files/Pods-BioBerry/Pods-BioBerry.debug.xcconfig"; sourceTree = "<group>"; };
+		6AACB4370D8487AF57F499AA /* Pods-BioBerry-BioBerryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBerry-BioBerryUITests.debug.xcconfig"; path = "Target Support Files/Pods-BioBerry-BioBerryUITests/Pods-BioBerry-BioBerryUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC1D8209B219B270AE757A9 /* Pods-BioBerryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBerryTests.release.xcconfig"; path = "Target Support Files/Pods-BioBerryTests/Pods-BioBerryTests.release.xcconfig"; sourceTree = "<group>"; };
+		DC48E9342364525100EF8D2D /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
 		DC8E998F2363FEF700166339 /* BioBerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioBerry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8E99922363FEF700166339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC8E99942363FEF700166339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,9 @@
 		DC8E99B02363FEFF00166339 /* BioBerryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioBerryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC8E99B42363FEFF00166339 /* BioBerryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBerryUITests.swift; sourceTree = "<group>"; };
 		DC8E99B62363FEFF00166339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8E99C22364274A00166339 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E3AB174A0E5C314522C612BE /* Pods-BioBerry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBerry.release.xcconfig"; path = "Target Support Files/Pods-BioBerry/Pods-BioBerry.release.xcconfig"; sourceTree = "<group>"; };
+		F0186505828D6C0B857067EA /* Pods-BioBerryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BioBerryTests.debug.xcconfig"; path = "Target Support Files/Pods-BioBerryTests/Pods-BioBerryTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B080C65C389F68D7D470547B /* Pods_BioBerry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA372CE4DAF1D41262CBD61A /* Pods_BioBerryTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				804BCE03E6D31919A554BF2F /* Pods_BioBerry_BioBerryUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13D8E6569AE23FD3CE655DE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A1572D2C685069CF7074FE4 /* Pods-BioBerry.debug.xcconfig */,
+				E3AB174A0E5C314522C612BE /* Pods-BioBerry.release.xcconfig */,
+				6AACB4370D8487AF57F499AA /* Pods-BioBerry-BioBerryUITests.debug.xcconfig */,
+				23FC25CDDDB916AB8C8A0D41 /* Pods-BioBerry-BioBerryUITests.release.xcconfig */,
+				F0186505828D6C0B857067EA /* Pods-BioBerryTests.debug.xcconfig */,
+				8AC1D8209B219B270AE757A9 /* Pods-BioBerryTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		39CABF1FC720E857B13183F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0041DFEA638520D909F95A7B /* Pods_BioBerry.framework */,
+				4513CB55CB0BF45E4A036E99 /* Pods_BioBerry_BioBerryUITests.framework */,
+				54A9DAAE50B0E70A4C8D3C4D /* Pods_BioBerryTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC8E99862363FEF600166339 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +125,8 @@
 				DC8E99A82363FEFF00166339 /* BioBerryTests */,
 				DC8E99B32363FEFF00166339 /* BioBerryUITests */,
 				DC8E99902363FEF700166339 /* Products */,
+				13D8E6569AE23FD3CE655DE8 /* Pods */,
+				39CABF1FC720E857B13183F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +150,8 @@
 				DC8E999B2363FEFE00166339 /* Assets.xcassets */,
 				DC8E999D2363FEFE00166339 /* LaunchScreen.storyboard */,
 				DC8E99A02363FEFE00166339 /* Info.plist */,
+				DC8E99C22364274A00166339 /* Model.swift */,
+				DC48E9342364525100EF8D2D /* StatsViewController.swift */,
 			);
 			path = BioBerry;
 			sourceTree = "<group>";
@@ -135,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC8E99B92363FEFF00166339 /* Build configuration list for PBXNativeTarget "BioBerry" */;
 			buildPhases = (
+				3FFE35D52A890A7DB8F1762A /* [CP] Check Pods Manifest.lock */,
 				DC8E998B2363FEF700166339 /* Sources */,
 				DC8E998C2363FEF700166339 /* Frameworks */,
 				DC8E998D2363FEF700166339 /* Resources */,
+				3072934E4F76E68FA64B0D12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC8E99BC2363FEFF00166339 /* Build configuration list for PBXNativeTarget "BioBerryTests" */;
 			buildPhases = (
+				D4A2BC7602D8696F9E2B70BF /* [CP] Check Pods Manifest.lock */,
 				DC8E99A12363FEFF00166339 /* Sources */,
 				DC8E99A22363FEFF00166339 /* Frameworks */,
 				DC8E99A32363FEFF00166339 /* Resources */,
@@ -170,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC8E99BF2363FEFF00166339 /* Build configuration list for PBXNativeTarget "BioBerryUITests" */;
 			buildPhases = (
+				FC748B6D61DE7FB0FBAB329D /* [CP] Check Pods Manifest.lock */,
 				DC8E99AC2363FEFF00166339 /* Sources */,
 				DC8E99AD2363FEFF00166339 /* Frameworks */,
 				DC8E99AE2363FEFF00166339 /* Resources */,
+				A8515BD16C5E0564A7F99895 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +305,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3072934E4F76E68FA64B0D12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BioBerry/Pods-BioBerry-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BioBerry/Pods-BioBerry-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BioBerry/Pods-BioBerry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FFE35D52A890A7DB8F1762A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BioBerry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8515BD16C5E0564A7F99895 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BioBerry-BioBerryUITests/Pods-BioBerry-BioBerryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BioBerry-BioBerryUITests/Pods-BioBerry-BioBerryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BioBerry-BioBerryUITests/Pods-BioBerry-BioBerryUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A2BC7602D8696F9E2B70BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BioBerryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC748B6D61DE7FB0FBAB329D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BioBerry-BioBerryUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC8E998B2363FEF700166339 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +416,8 @@
 				DC8E99972363FEF700166339 /* ViewController.swift in Sources */,
 				DC8E99932363FEF700166339 /* AppDelegate.swift in Sources */,
 				DC8E99952363FEF700166339 /* SceneDelegate.swift in Sources */,
+				DC48E9352364525100EF8D2D /* StatsViewController.swift in Sources */,
+				DC8E99C32364274B00166339 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +588,7 @@
 		};
 		DC8E99BA2363FEFF00166339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1572D2C685069CF7074FE4 /* Pods-BioBerry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +607,7 @@
 		};
 		DC8E99BB2363FEFF00166339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3AB174A0E5C314522C612BE /* Pods-BioBerry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +626,7 @@
 		};
 		DC8E99BD2363FEFF00166339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0186505828D6C0B857067EA /* Pods-BioBerryTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +649,7 @@
 		};
 		DC8E99BE2363FEFF00166339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC1D8209B219B270AE757A9 /* Pods-BioBerryTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +672,7 @@
 		};
 		DC8E99C02363FEFF00166339 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AACB4370D8487AF57F499AA /* Pods-BioBerry-BioBerryUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +693,7 @@
 		};
 		DC8E99C12363FEFF00166339 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23FC25CDDDB916AB8C8A0D41 /* Pods-BioBerry-BioBerryUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

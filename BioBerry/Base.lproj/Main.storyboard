@@ -1,24 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="on2-pw-Ckg">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Bio Berry-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BioBerry" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xNe-JO-rHE">
+                                <rect key="frame" x="0.0" y="140" width="414" height="722"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aes-BA-xAR">
+                                        <rect key="frame" x="186" y="612" width="0.0" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="aes-BA-xAR" secondAttribute="trailing" constant="186" id="fz4-kD-qUr"/>
+                                    <constraint firstItem="aes-BA-xAR" firstAttribute="leading" secondItem="xNe-JO-rHE" secondAttribute="leading" constant="186" id="gPK-sT-j5k"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wgs-bb-TSo">
+                                <rect key="frame" x="20" y="160" width="374" height="300"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0wZ-Bb-0oq" customClass="Card" customModule="Cards">
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="300"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="backgroundImage" value="info1"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="o8l-SU-t9P">
+                                        <rect key="frame" x="197" y="0.0" width="177" height="300"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aDS-dz-iAA" customClass="Card" customModule="Cards">
+                                                <rect key="frame" x="0.0" y="0.0" width="177" height="134"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="backgroundImage" value="info2"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XrK-j6-Wao" customClass="Card" customModule="Cards">
+                                                <rect key="frame" x="0.0" y="155" width="177" height="145"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="backgroundImage" value="info3"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="XrK-j6-Wao" firstAttribute="top" secondItem="o8l-SU-t9P" secondAttribute="top" constant="155" id="KmX-hb-bmv"/>
+                                            <constraint firstItem="XrK-j6-Wao" firstAttribute="top" secondItem="aDS-dz-iAA" secondAttribute="bottom" constant="21" id="oAG-Oa-fQf"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="vCQ-9j-2pM"/>
+                                </constraints>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KsF-Ad-8SO" customClass="Card" customModule="Cards">
+                                <rect key="frame" x="20" y="480" width="374" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="QxD-W8-CYw"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="backgroundImage" value="info4"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wgs-bb-TSo" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2ff-Gd-0Wj"/>
+                            <constraint firstItem="aes-BA-xAR" firstAttribute="top" secondItem="KsF-Ad-8SO" secondAttribute="bottom" constant="22" id="Ln8-iZ-kSq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KsF-Ad-8SO" secondAttribute="trailing" constant="20" id="Rl2-Ya-eEj"/>
+                            <constraint firstItem="KsF-Ad-8SO" firstAttribute="top" secondItem="wgs-bb-TSo" secondAttribute="bottom" constant="20" id="VLI-h2-d5F"/>
+                            <constraint firstItem="wgs-bb-TSo" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Wnz-SM-xli"/>
+                            <constraint firstItem="KsF-Ad-8SO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bFr-0k-zSO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wgs-bb-TSo" secondAttribute="trailing" constant="20" id="l8a-uv-UAy"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="rectangle.3.offgrid.fill" catalog="system" badgeValue="1" id="EbD-eN-sdI"/>
+                    <navigationItem key="navigationItem" title="Bio Berry" id="E5G-w0-6US">
+                        <barButtonItem key="rightBarButtonItem" title="Settings" id="P6d-Al-vNB"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="background" destination="xNe-JO-rHE" id="lVY-Na-h0C"/>
+                        <outlet property="tempLabel" destination="aes-BA-xAR" id="hWW-3a-hEX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2944.9275362318845" y="-135.26785714285714"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="p7T-Qz-bHn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="on2-pw-Ckg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="57v-G2-lvl"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="1IS-el-KB2">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bqS-M4-ms9" kind="relationship" relationship="rootViewController" id="xcS-Ro-cPW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dag-xM-w5X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="129.91071428571428"/>
+        </scene>
+        <!--Stats-->
+        <scene sceneID="cIp-Yz-IZ0">
+            <objects>
+                <viewController id="pqp-DR-xwN" customClass="StatsViewController" customModule="BioBerry" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="I4u-WA-QP2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="79" translatesAutoresizingMaskIntoConstraints="NO" id="nOb-op-GdE">
+                                <rect key="frame" x="30" y="160" width="354" height="623"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t4Z-ca-nuO">
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="272"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hFz-hP-Vkq">
+                                        <rect key="frame" x="0.0" y="351" width="354" height="272"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="nOb-op-GdE" firstAttribute="leading" secondItem="Yjg-pf-RD8" secondAttribute="leading" constant="30" id="8Re-ds-82o"/>
+                            <constraint firstItem="nOb-op-GdE" firstAttribute="top" secondItem="Yjg-pf-RD8" secondAttribute="top" constant="20" id="Ipo-mL-NIQ"/>
+                            <constraint firstItem="Yjg-pf-RD8" firstAttribute="trailing" secondItem="nOb-op-GdE" secondAttribute="trailing" constant="30" id="Yvr-SY-aD9"/>
+                            <constraint firstItem="Yjg-pf-RD8" firstAttribute="bottom" secondItem="nOb-op-GdE" secondAttribute="bottom" constant="30" id="ypb-3f-noj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yjg-pf-RD8"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Stats" image="checkmark.seal.fill" catalog="system" id="94f-CG-nes"/>
+                    <navigationItem key="navigationItem" title="Stats" id="Iad-v8-P5G"/>
+                    <connections>
+                        <outlet property="bottomContainer" destination="hFz-hP-Vkq" id="Vhg-oh-pdB"/>
+                        <outlet property="topContainer" destination="t4Z-ca-nuO" id="BId-zl-Q0J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lBf-CO-hAb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2944.9275362318845" y="535.71428571428567"/>
+        </scene>
+        <!--Bio Berry-->
+        <scene sceneID="2RF-3A-ro7">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="bqS-M4-ms9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Bio Berry" id="Hwy-D1-ow2"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="e6T-Cq-Rto">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="yts-24-Eqb"/>
+                        <segue destination="pqp-DR-xwN" kind="relationship" relationship="viewControllers" id="dXv-nE-AuT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4u4-eF-iCk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2023" y="86"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="checkmark.seal.fill" catalog="system" width="64" height="60"/>
+        <image name="info1" width="329" height="561"/>
+        <image name="info2" width="652" height="490"/>
+        <image name="info3" width="652" height="490"/>
+        <image name="info4" width="715" height="571"/>
+        <image name="rectangle.3.offgrid.fill" catalog="system" width="64" height="40"/>
+    </resources>
 </document>
