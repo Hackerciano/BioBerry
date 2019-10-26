@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC8E99932363FEF700166339 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99922363FEF700166339 /* AppDelegate.swift */; };
+		DC8E99952363FEF700166339 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99942363FEF700166339 /* SceneDelegate.swift */; };
+		DC8E99972363FEF700166339 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99962363FEF700166339 /* ViewController.swift */; };
+		DC8E999A2363FEF700166339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8E99982363FEF700166339 /* Main.storyboard */; };
+		DC8E999C2363FEFE00166339 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC8E999B2363FEFE00166339 /* Assets.xcassets */; };
+		DC8E999F2363FEFE00166339 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC8E999D2363FEFE00166339 /* LaunchScreen.storyboard */; };
+		DC8E99AA2363FEFF00166339 /* BioBerryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99A92363FEFF00166339 /* BioBerryTests.swift */; };
+		DC8E99B52363FEFF00166339 /* BioBerryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8E99B42363FEFF00166339 /* BioBerryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC8E99A62363FEFF00166339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8E99872363FEF600166339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC8E998E2363FEF700166339;
+			remoteInfo = BioBerry;
+		};
+		DC8E99B12363FEFF00166339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8E99872363FEF600166339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC8E998E2363FEF700166339;
+			remoteInfo = BioBerry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC8E998F2363FEF700166339 /* BioBerry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioBerry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8E99922363FEF700166339 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC8E99942363FEF700166339 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DC8E99962363FEF700166339 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC8E99992363FEF700166339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC8E999B2363FEFE00166339 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC8E999E2363FEFE00166339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC8E99A02363FEFE00166339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8E99A52363FEFF00166339 /* BioBerryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioBerryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8E99A92363FEFF00166339 /* BioBerryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBerryTests.swift; sourceTree = "<group>"; };
+		DC8E99AB2363FEFF00166339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC8E99B02363FEFF00166339 /* BioBerryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BioBerryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8E99B42363FEFF00166339 /* BioBerryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioBerryUITests.swift; sourceTree = "<group>"; };
+		DC8E99B62363FEFF00166339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC8E998C2363FEF700166339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8E99A22363FEFF00166339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8E99AD2363FEFF00166339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC8E99862363FEF600166339 = {
+			isa = PBXGroup;
+			children = (
+				DC8E99912363FEF700166339 /* BioBerry */,
+				DC8E99A82363FEFF00166339 /* BioBerryTests */,
+				DC8E99B32363FEFF00166339 /* BioBerryUITests */,
+				DC8E99902363FEF700166339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC8E99902363FEF700166339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC8E998F2363FEF700166339 /* BioBerry.app */,
+				DC8E99A52363FEFF00166339 /* BioBerryTests.xctest */,
+				DC8E99B02363FEFF00166339 /* BioBerryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC8E99912363FEF700166339 /* BioBerry */ = {
+			isa = PBXGroup;
+			children = (
+				DC8E99922363FEF700166339 /* AppDelegate.swift */,
+				DC8E99942363FEF700166339 /* SceneDelegate.swift */,
+				DC8E99962363FEF700166339 /* ViewController.swift */,
+				DC8E99982363FEF700166339 /* Main.storyboard */,
+				DC8E999B2363FEFE00166339 /* Assets.xcassets */,
+				DC8E999D2363FEFE00166339 /* LaunchScreen.storyboard */,
+				DC8E99A02363FEFE00166339 /* Info.plist */,
+			);
+			path = BioBerry;
+			sourceTree = "<group>";
+		};
+		DC8E99A82363FEFF00166339 /* BioBerryTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC8E99A92363FEFF00166339 /* BioBerryTests.swift */,
+				DC8E99AB2363FEFF00166339 /* Info.plist */,
+			);
+			path = BioBerryTests;
+			sourceTree = "<group>";
+		};
+		DC8E99B32363FEFF00166339 /* BioBerryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC8E99B42363FEFF00166339 /* BioBerryUITests.swift */,
+				DC8E99B62363FEFF00166339 /* Info.plist */,
+			);
+			path = BioBerryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC8E998E2363FEF700166339 /* BioBerry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8E99B92363FEFF00166339 /* Build configuration list for PBXNativeTarget "BioBerry" */;
+			buildPhases = (
+				DC8E998B2363FEF700166339 /* Sources */,
+				DC8E998C2363FEF700166339 /* Frameworks */,
+				DC8E998D2363FEF700166339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioBerry;
+			productName = BioBerry;
+			productReference = DC8E998F2363FEF700166339 /* BioBerry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC8E99A42363FEFF00166339 /* BioBerryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8E99BC2363FEFF00166339 /* Build configuration list for PBXNativeTarget "BioBerryTests" */;
+			buildPhases = (
+				DC8E99A12363FEFF00166339 /* Sources */,
+				DC8E99A22363FEFF00166339 /* Frameworks */,
+				DC8E99A32363FEFF00166339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC8E99A72363FEFF00166339 /* PBXTargetDependency */,
+			);
+			name = BioBerryTests;
+			productName = BioBerryTests;
+			productReference = DC8E99A52363FEFF00166339 /* BioBerryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC8E99AF2363FEFF00166339 /* BioBerryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC8E99BF2363FEFF00166339 /* Build configuration list for PBXNativeTarget "BioBerryUITests" */;
+			buildPhases = (
+				DC8E99AC2363FEFF00166339 /* Sources */,
+				DC8E99AD2363FEFF00166339 /* Frameworks */,
+				DC8E99AE2363FEFF00166339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC8E99B22363FEFF00166339 /* PBXTargetDependency */,
+			);
+			name = BioBerryUITests;
+			productName = BioBerryUITests;
+			productReference = DC8E99B02363FEFF00166339 /* BioBerryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC8E99872363FEF600166339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Diego Graciano";
+				TargetAttributes = {
+					DC8E998E2363FEF700166339 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					DC8E99A42363FEFF00166339 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = DC8E998E2363FEF700166339;
+					};
+					DC8E99AF2363FEFF00166339 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = DC8E998E2363FEF700166339;
+					};
+				};
+			};
+			buildConfigurationList = DC8E998A2363FEF600166339 /* Build configuration list for PBXProject "BioBerry" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC8E99862363FEF600166339;
+			productRefGroup = DC8E99902363FEF700166339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC8E998E2363FEF700166339 /* BioBerry */,
+				DC8E99A42363FEFF00166339 /* BioBerryTests */,
+				DC8E99AF2363FEFF00166339 /* BioBerryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC8E998D2363FEF700166339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8E999F2363FEFE00166339 /* LaunchScreen.storyboard in Resources */,
+				DC8E999C2363FEFE00166339 /* Assets.xcassets in Resources */,
+				DC8E999A2363FEF700166339 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8E99A32363FEFF00166339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8E99AE2363FEFF00166339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC8E998B2363FEF700166339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8E99972363FEF700166339 /* ViewController.swift in Sources */,
+				DC8E99932363FEF700166339 /* AppDelegate.swift in Sources */,
+				DC8E99952363FEF700166339 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8E99A12363FEFF00166339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8E99AA2363FEFF00166339 /* BioBerryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8E99AC2363FEFF00166339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8E99B52363FEFF00166339 /* BioBerryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC8E99A72363FEFF00166339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC8E998E2363FEF700166339 /* BioBerry */;
+			targetProxy = DC8E99A62363FEFF00166339 /* PBXContainerItemProxy */;
+		};
+		DC8E99B22363FEFF00166339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC8E998E2363FEF700166339 /* BioBerry */;
+			targetProxy = DC8E99B12363FEFF00166339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC8E99982363FEF700166339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8E99992363FEF700166339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC8E999D2363FEFE00166339 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8E999E2363FEFE00166339 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC8E99B72363FEFF00166339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC8E99B82363FEFF00166339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC8E99BA2363FEFF00166339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WN98H2N25;
+				INFOPLIST_FILE = BioBerry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graciano.BioBerry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC8E99BB2363FEFF00166339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WN98H2N25;
+				INFOPLIST_FILE = BioBerry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graciano.BioBerry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC8E99BD2363FEFF00166339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WN98H2N25;
+				INFOPLIST_FILE = BioBerryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graciano.BioBerryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioBerry.app/BioBerry";
+			};
+			name = Debug;
+		};
+		DC8E99BE2363FEFF00166339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WN98H2N25;
+				INFOPLIST_FILE = BioBerryTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graciano.BioBerryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BioBerry.app/BioBerry";
+			};
+			name = Release;
+		};
+		DC8E99C02363FEFF00166339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WN98H2N25;
+				INFOPLIST_FILE = BioBerryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graciano.BioBerryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BioBerry;
+			};
+			name = Debug;
+		};
+		DC8E99C12363FEFF00166339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WN98H2N25;
+				INFOPLIST_FILE = BioBerryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = graciano.BioBerryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BioBerry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC8E998A2363FEF600166339 /* Build configuration list for PBXProject "BioBerry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8E99B72363FEFF00166339 /* Debug */,
+				DC8E99B82363FEFF00166339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8E99B92363FEFF00166339 /* Build configuration list for PBXNativeTarget "BioBerry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8E99BA2363FEFF00166339 /* Debug */,
+				DC8E99BB2363FEFF00166339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8E99BC2363FEFF00166339 /* Build configuration list for PBXNativeTarget "BioBerryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8E99BD2363FEFF00166339 /* Debug */,
+				DC8E99BE2363FEFF00166339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC8E99BF2363FEFF00166339 /* Build configuration list for PBXNativeTarget "BioBerryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC8E99C02363FEFF00166339 /* Debug */,
+				DC8E99C12363FEFF00166339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC8E99872363FEF600166339 /* Project object */;
+}
